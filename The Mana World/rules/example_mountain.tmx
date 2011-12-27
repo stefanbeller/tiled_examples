@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="45" height="45" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="set" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_icemountain.png" width="224" height="128"/>
+ </tileset>
+ <tileset firstgid="31" name="Snow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Snow.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="287" name="Snow_ground" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Snow_ground.png" width="352" height="224"/>
+ </tileset>
+ <layer name="Underground" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6DOVf0rq4p9kNBLqqqqqqqqqqq+H0tNwvE=
+  </data>
+ </layer>
+ <layer name="set" width="45" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1skKwzAMBNBAuuX/f7iXGoLRMiNLdkormFshL40sa9+2bV+YSK30zjDfyKw0s1bmPbLNmdZqM/r8uxLGPWoecTL2LHPU238jxD3D7DmlWO5qc8Tbu63/OtvsWb2ZsNLMzkLEvcKMzrIrmVH31cxIf1Sapeczs4I9h1nmUXdkRmeYq9zV5kz3TLPkj96FVXd3lTtifggZMbNuzyz5vLD9ie4iWi/3v5lpluzI7u95n58gZnbn1O4/ZGfuvU8lrDl6Z3vWs1mzrjJ736mZX10YM+uOWs99IZkRd9SMxjpLzXwYZslvmbO8Vs8289nNmLMizQSpB1p6s9YrFWZr3maaMwsxH0T+5rhZ6wvNe0Wz5L5KP2tzzjuD0qz7dbPm1vxWv1h3eEWNmr0dr7LYXkH30eoaca/wauZoZta3edFirG/O5RrH
+  </data>
+ </layer>
+</map>

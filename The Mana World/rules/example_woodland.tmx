@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="50" height="30" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set_woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_woodland.png" width="512" height="320"/>
+ </tileset>
+ <tileset firstgid="161" name="Woodland" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Woodland_ground.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="417" name="Woodland x3" tilewidth="32" tileheight="96">
+  <image source="../graphics/tiles/Woodland_x3.png" width="512" height="192"/>
+ </tileset>
+ <tileset firstgid="449" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="451" name="Woodland x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Woodland_x2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="483" name="Woodland_x4" tilewidth="32" tileheight="128">
+  <image source="../graphics/tiles/Woodland_x4.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="499" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <layer name="set" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzdlmFuwjAMhUPXrbBbpIyxa/YI3HiqFEueFdvPSYCJH091Q5P483NoDymlw4vqqMSP0BaQlfezted3LtrE+MRi1IdnsUqOhY3z2MtT5kv3N1CjOaQHk8FRq7UcQzl6eSTHRxHqBz3D86daRBl6WCwOz48l/c271wuLQ9sD4chFiB+eF5Fzg3rAmYhjrXBcHQ7JYPkwO5wex1HMl75s5bdZ8YP4LK+n5HNkVpceP6y+mhnHpQjpK7SnaJ3vch11znn9LA6vr7Te6uFoORuIH1ZftbBo+cveRHpJcnCtA/zw+n/0u7zmjWTj4yhDlCWat+WdxiGZRrN4OSF5W/2FcCzAHvfqqdqZaWGIKMLwVrTH9P/jrc97otUPpLdqLNpzLRwtvmjeaO/EqCyO0yAWxNdHS+bX4sE9GN6Loiwy5nl7vUHvyfwPOD5ZTN/vmY1ZXuRU55D8Wj3k3D2m7yKvNrLu/J7W/TH8QjhQyflrYM2tQyM5Mqhr0A/rWc2PHlGea9FXuZ4rLL17jc494smoPRC/XkG/FI3Ggw==
+  </data>
+ </layer>
+</map>

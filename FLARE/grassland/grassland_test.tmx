@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="25" height="25" tilewidth="64" tileheight="32">
+ <properties>
+  <property name="music" value="overworld_theme.ogg"/>
+  <property name="tileset" value="tileset_grassland.txt"/>
+  <property name="title" value="New Map"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
+  <image source="tiled_collision.png" width="960" height="32"/>
+ </tileset>
+ <tileset firstgid="16" name="grassland" tilewidth="64" tileheight="128">
+  <image source="grassland.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="144" name="water" tilewidth="64" tileheight="64">
+  <tileoffset x="0" y="32"/>
+  <image source="grassland_water.png" width="1024" height="256"/>
+ </tileset>
+ <tileset firstgid="208" name="tall structures" tilewidth="64" tileheight="256">
+  <image source="grassland_structures.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="240" name="trees" tilewidth="128" tileheight="256">
+  <tileoffset x="-32" y="0"/>
+  <image source="grassland_trees.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
+  <image source="set_rules.png" width="128" height="128"/>
+ </tileset>
+ <layer name="background" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztk0EKgzAQRXOEHl2pVmxrF1Lttkf0DyRQNE7iOAlFHHi7/P/QZIzJNxeG1P1aHup4ghJ0iTyUr8AXDKC2tIoeyj7AFXysawR3j0Pq+c2777mt9Es9IYfv3FaPy9C9vxnHHo87X9h+37/iPDGuuaM3y/vm+rc46G014MV0Sd+BpC+3I2ZCeY09ie3Q2I+9u/wvnjVXqsnhOOe4MwHkbSFI
+  </data>
+ </layer>
+ <layer name="object" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlYsKwjAMRftJap3zgU4d0///IxNYICtZkj4QBC+EsqbL4bbpFsJ3dIToktiy8dSAsTfyD4hrJWPjWDOFOj8eRi3HyyBOyb7lMEo51pk/IXqIkc3l9oHl4zCPA8S7kGMxsBad9SUs/eC+dQ6WtVco9EJ39S7kdw0Y00ptnte85PbVmjQvHh+asO8ixE1Zo/l4hWUvSXmtNknzQX0bBZa3vsbAGmf2jPejnyMmOUv47ijMl36bNEWB1eLfkYr2g7Os+1XLsnryr9/TBwK7FhQ=
+  </data>
+ </layer>
+ <layer name="collision" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1UsOwCAIBFBo73/nrpoQg8MAkm5qwsrK84dVEVEi7kYw+U8ZqHWdd/xl4rTjGTuv6mSMqrOeR7RnFYcx1Pku49ixu31a73HWqRiegyzGQGux/VnDy4FqFa2FqXO2TRrRmbB7EPUzdwvl2M0lWyPMHDtvPrqP3X8HY0061bepak0Zf3wTD9YABLU=
+  </data>
+ </layer>
+ <layer name="set" width="25" height="25" opacity="0.2">
+  <data encoding="base64" compression="zlib">
+   eJzt1cESgCAIBFAt/v+bOzXDOALLItOlw55Kn4mYzDEEyCwEmf+UcTmpOu/4W+W0szMsj3UyBuus9Yj2jHEQQzbvZRw91tqn9RxnHcbYOZ6FGN636OdZw6ozcw6QPkfTaUQ1Qfeg2ivRHNZasj2CrLFy53vnsfrvQKxOh72bWKvL+PNNHlOKByA=
+  </data>
+ </layer>
+</map>

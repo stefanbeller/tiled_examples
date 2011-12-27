@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="64" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="set_cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_cave.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="cave" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/cave.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="193" name="collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/collision.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="195" name="cave_x2" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/cave_x2.png" width="512" height="64"/>
+ </tileset>
+ <tileset firstgid="211" name="set_rules" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
+ </tileset>
+ <layer name="set" width="64" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2VTQuDMAyGOzoPY/MgbJfd3P//kSIoK6Ok+WjaOHN4EMXaPm9qOoQQBsdxHCVeBtbQmkuB3uvr5X2UDOKGlrv1HCj+XG/L/jXqPp3Av+Q2J6z37xP6fxJ/TP2PlAu1/pgMpP6t88v53BDZaPUFC/61SOfA+nFzjEH33NfMTOofM3AzgJ6V/CnZQu9Q93DOn5IBVAvpHsX4zQmTIX9ovvt2xY7B+lPdORlI+/b63Ssx5xpnQw1/Si+C5nkY88fC6cm52j/D9z+gzvkP/tz+0jsDifvuj6m51T0g/f+567eyB3r5W+F3/aNwvOM4jtOeBUMtORIAIAAA
+  </data>
+ </layer>
+</map>

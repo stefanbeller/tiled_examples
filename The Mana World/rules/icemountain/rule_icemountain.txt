@@ -1,0 +1,10 @@
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+./rule_icemountain_001.tmx
+./rule_icemountain_002.tmx
+./rule_icemountain_003.tmx
+./rule_icemountain_004.tmx
+
+./rule_icemountain_010.tmx
+./rule_icemountain_011.tmx

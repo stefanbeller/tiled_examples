@@ -1,0 +1,14 @@
+This is a collection of examples used for Automapping in tiled-qt
+(see http://www.mapeditor.org or http://github.com/bjorn/tiled)
+
+The examples may be more up to date in the respective project.
+
+The Mana World
+All files in that directory are GPL by the Mana World developers.
+(see http://themanaworld.org/ or http://gitorious.org/tmw/tmwa-client-data.git)
+
+FLARE
+All of Flare's art and data files are released under CC-BY-SA 3.0. Later versions are permitted.
+(see http://clintbellanger.net/rpg/ or https://github.com/clintbellanger/flare)
+
+
