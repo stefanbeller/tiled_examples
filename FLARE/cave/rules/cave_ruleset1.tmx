@@ -13,58 +13,28 @@
   <image source="../set_rules.png" width="128" height="128"/>
  </tileset>
  <layer name="ruleRegions" width="11" height="7">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,
-0,256,256,0,256,0,256,0,256,256,0,
-0,0,0,0,256,0,256,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,256,0,256,0,0,0,0,
-0,256,256,0,256,0,256,0,256,256,0,
-0,0,0,0,0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCARMEIxAw6aEUMHdrXUAoTMJde9eAAACuQAEQ==
+  </data>
  </layer>
  <layer name="ruleSet" width="11" height="7">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,
-0,260,258,0,258,0,260,0,258,260,0,
-0,0,0,0,260,0,258,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,258,0,259,0,0,0,0,
-0,258,259,0,259,0,258,0,259,258,0,
-0,0,0,0,0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCANsDAyMDAxQtgwmgWJD2Nj04esh1oAZh4zDnNB8sxoapD1kOMeACboAD0=
+  </data>
  </layer>
  <layer name="rule_background" width="11" height="7">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,
-0,16,0,0,0,0,16,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,195,0,0,0,0,
-0,0,192,0,193,0,0,0,194,0,0,
-0,0,0,0,0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCANCBApRm9wGI/cASh9EE38EJl2AQAPfwMn
+  </data>
  </layer>
  <layer name="rule_object" width="11" height="7">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,
-0,64,0,0,0,0,65,0,0,66,0,
-0,0,0,0,67,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCANOGARc0RiO+HQ50yiPYMZAADvUAEH
+  </data>
  </layer>
  <layer name="rule_collision" width="11" height="7" visible="0">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,
-0,1,0,0,0,0,1,0,0,1,0,
-0,0,0,0,1,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,2,0,0,0,0,
-0,0,2,0,2,0,0,0,2,0,0,
-0,0,0,0,0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCANMBIQwyaPT5xagIkIOXQ1+PTgAwAHUAAN
+  </data>
  </layer>
 </map>

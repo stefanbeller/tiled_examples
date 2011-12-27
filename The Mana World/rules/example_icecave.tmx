@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_icecave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_icecave.png" width="128" height="128"/>
@@ -14,8 +13,8 @@
   <image source="../graphics/tiles/set_rules.png" width="64" height="64"/>
  </tileset>
  <layer name="set" width="32" height="32" opacity="0.73">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2V3Q6DIAyFcSLZjJt7/6fdDSSkae0PRYzZxQlYE75DC3QKIUx/XVL7AObjQKP5vX1AzprHdJIPyd5754FixazynapYT35EhP3j1tXcJQufUkvNNBwp3+rB6gO7R978uZp/HPNPvQmSfW+EB4/7aKmBNvcLIs7Hk8m9N5/LhfXdLLx3Hl+Av1bzhHDhel9QT+3euTNR4pK3UFoDCR/GpfzW3kVxJHyPnsXxqfU1/Ypjc/x4ELfyW/rQHfjWGnryvc7wHfijPIzme+oH7E6QcgAQAAA=
+  <data encoding="base64" compression="zlib">
+   eJztld0OgyAMhXEi2Yybe/+n3Q0kpGntD0WM2cUJWBO+Qwt0CiFMf11S+wDm40Cj+b19QM6ax3SSD8nee+eBYsWs8p2qWE9+RIT949bV3CULn1JLzTQcKd/qweoDu0fe/LmafxzzT70Jkn1vhAeP+2ipgTb3CyLOx5PJvTefy4X13Sy8dx5fgL9W84Rw4XpfUE/t3rkzUeKSt1BaAwkfxqX81t5FcSR8j57F8an1Nf2KY3P8eBC38lv60B341hp68r3O8B34ozyM5nvqB4T8B7M=
   </data>
  </layer>
 </map>

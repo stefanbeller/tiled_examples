@@ -14,38 +14,28 @@
   <image source="../set_rules.png" width="128" height="128"/>
  </tileset>
  <layer name="ruleRegions" width="7" height="3" visible="0">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,256,0,256,0,256,0,
-0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCAAGHHQeAAAANUABA==
+  </data>
  </layer>
  <layer name="ruleSet" width="7" height="3" visible="0">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,258,0,259,0,257,0,
-0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmBghNDOUZmQkoAEIAAHlAAo=
+  </data>
  </layer>
  <layer name="rule_background" width="7" height="3">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,16,0,216,0,0,0,
-0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPBKD0DQLqkAEAKLQA6Q==
+  </data>
  </layer>
  <layer name="rule_object" width="7" height="3" visible="0">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,
-0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+AAAAVAAB
+  </data>
  </layer>
  <layer name="rule_collision" width="7" height="3">
-  <data encoding="csv">
-0,0,0,0,0,0,0,
-0,0,0,4,0,3,0,
-0,0,0,0,0,0,0
-</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOsEBpZiLUAgABcAAI
+  </data>
  </layer>
 </map>
