@@ -1,0 +1,37 @@
+rule_001.tmx
+rule_002.tmx
+rule_003.tmx
+rule_004.tmx
+
+
+
+# tutorials:
+
+# 1) introduction about versioning
+#	explain that this tutorial is about the new stuff probably coming in 0.9
+# 2) introduction to new automapping
+#   - explain about not needing the set layer, but maybe able to use it
+#   - explain about new regions concept
+
+
+# 1) easy automapping (supportive collision tiles)
+#       explain the need for collision tiles
+#		explain regions layer, rule region, output region
+# 
+
+# 2) multiple inputs (stone or sign)
+#       explain the possibility of multiple inputs ( mind bigger sizes )
+
+# 3) random output (maybe with flowers)  rule_001.tmx
+#		rely on multiple inputs
+
+# 4) extended random output (flowers are not walkable) rule_001.tmx
+#	explain the possibilites of automapping_delete and automapping_radius
+
+
+# 5) water start 
+#    showing the rulenot features
+
+# 6) advanced features (water construction)
+#   relying on already mapped output
+#   checking for errors

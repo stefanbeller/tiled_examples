@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="8" height="9" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Woodland_ground" tilewidth="32" tileheight="32">
+  <image source="Woodland_ground.png" width="192" height="96"/>
+ </tileset>
+ <layer name="regions_output" width="8" height="9">
+  <data encoding="base64" compression="zlib">
+   eJwTYmBgEGJABUJIYuhyDDjE8alHNw+XmbgAMfpx2U/I/djMQxYDAPrgAbE=
+  </data>
+ </layer>
+ <layer name="regions_input" width="8" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgEGJABUI42LjUIPOxqcdnPjGAGP247CfG/fj0AACnoAEh
+  </data>
+ </layer>
+ <layer name="input_Ground" width="8" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYGJABch8dgbsgBMHH5t6PgJ8QoAY/TB7cbkLl3oQwOd/AEsgAIE=
+  </data>
+ </layer>
+ <layer name="input_Ground" width="8" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg4GFABdxIbHQ5bGpAgBVKs2FRy4rGx6YGHyBGP8yduNyFDpDNwOd/AFFAAIk=
+  </data>
+ </layer>
+ <layer name="input_Ground" width="8" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYGZABYxIbF4G7IAfjQ8zgxFdIRYz0PUSAsTo58Uhh+43GGDEowZZDgBOIACB
+  </data>
+ </layer>
+ <layer name="output_Ground" width="8" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjZMAOmHGIkwv4oTQvmfrZoDQrFdyCDLhxiPNAaQAf0ABD
+  </data>
+ </layer>
+</map>
