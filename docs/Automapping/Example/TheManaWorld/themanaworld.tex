@@ -1,0 +1,25 @@
+\newpage
+\section{The Manaworld examples}
+%\FloatBarrier
+\begin{table}
+  %~ \begin{center}
+		\begin{tabular}{c c}
+		\includegraphics[scale=1]{Example/TheManaWorld/flow1.eps} &
+	    \includegraphics[scale=1]{Example/TheManaWorld/flow2.eps} \\
+	    \includegraphics[scale=1]{Example/TheManaWorld/flow3.eps} &
+	    \includegraphics[scale=1]{Example/TheManaWorld/flow4.eps} \\
+		\end{tabular}
+  %~ \end{center}
+  \caption{Series of rules get applied to build up a scenary for The Mana World.}
+\end{table}
+
+The Mana world examples will demonstrate quite a lot of different Automapping
+features. At first a shoreline will be constructed, by first adding all
+the straight parts and afterwards another rule will correct the corners
+to make them also fit the given tileset. After the shoreline has been added,
+the waters will be marked as unwalkable for the game engine. Last but not least
+some random placed fancy flowers will make the scenary even more beautiful.
+
+
+\input{Example/TheManaWorld/shorelinestraight}
+\input{Example/TheManaWorld/shorelinecorners}

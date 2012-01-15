@@ -1,0 +1,143 @@
+\documentclass[dvips, a4paper, 12pt,listof=totoc, oneside, parskip]{scrbook}
+
+\usepackage{verbatim}
+\usepackage[small]{caption}
+\usepackage{graphicx,psfrag}
+\usepackage{rotating}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage[dvips]{geometry,color}
+\usepackage{xspace}
+\usepackage[utf8]{inputenc}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{placeins}
+
+\title{Automapping rulesfile design description}
+\date{Tiled v0.9}
+\author{Stefan Beller}
+
+\newcommand{\ind}{[\langle\textup{index}\rangle]}
+\newcommand{\name}{\langle\textup{name}\rangle}
+\begin{document}
+\maketitle
+
+\chapter*{abstract}
+Automapping is an advanced tool to automatically search certain
+combinations of tiles accross layers in a map and to replace
+these parts by other combination. This allows the user to draw
+structures with a minimum of time spent and the Automapping will be able
+to generate a rather complex scenario, which would need lots more time if
+manually crafted.
+
+The first chapter of this document describes the Automapping rulemap
+files in every detail.
+
+The second chapter delivers examples which are cited by the the first part to
+explain the usefulness of certain design decisions.
+
+
+\chapter{Formal Description}
+An automapping file consists of 4 major parts:
+
+\begin{enumerate}
+  \item The \emph{Definition of regions} describes which locations of the rulemap
+  are actually used to create Automapping rules.
+
+  \item The \emph{Definition of inputs} describes which kind of pattern the working map
+  will be searched for.
+
+  \item The \emph{Definition of outputs} describes how the working map is changed when
+  an input pattern is found.
+
+  \item The \emph{Map properties} are used to finetune the input pattern localization and the output of all rules within this rulesfile.
+\end{enumerate}
+
+
+
+\section{Defining the Regions}
+There must be either a tilelayer called $\textup{regions}$ or there must be
+the both tilelayers $\textup{regions}\_\textup{input}$ and
+$\textup{regions}\_\textup{output}$
+
+Using the regions layer, the region defined for input and output is
+the same.
+
+Using the different layers 'regions\_input' and 'regions\_output'
+delivers the possibility to have different regions for the input section
+and the output section.
+
+The region(s) defining an output are only used to mark regions.
+That is either a tile belongs to a region or it does not. Therefore the
+region layer does not rely on special tiles. So either use any tile or
+no tile at all at a coordinate to indicate if that coordinate belongs to a
+rule or if it doesn't.
+
+If multiple rules are defined in one rulemap file, the regions must not be
+adjacent. That means there must be at least one tile of unused space in between
+two rules. If the regions are adjacent (coherent) then both regions are interpreted as
+one rule.
+
+The use of different 'regions\_input' and 'regions\_output' is demonstrated
+in example~\ref{example_tmw_grass_water_corners}.
+
+\section{Definition of inputs}
+Inputs are generally defined by tilelayers whichs name follows this scheme
+
+$$\textup{input}[\textup{not}] [\langle index \rangle]  \_ \langle name \rangle$$
+
+whereas the $[\textup{not}]$ and $[\langle index \rangle]$ are optional.
+
+The $\langle name \rangle$ determines which layer on the rulemap is examined.
+So for example the layer $\textup{input}\_\textup{Ground}$ will check the
+layer called $\textup{Ground}$ in the working map for this rule.
+
+Multiple layers having the same $\langle name \rangle$ and $\langle index \rangle$ 
+is explicitly allowed and is intended.
+
+The $\langle index \rangle$ is used to create complete different input conditions.
+All layers having the same $\langle index \rangle$ are taken into account for forming one
+condition. Each of these conditions are checked individually
+
+\begin{enumerate}
+  \item $\langle index \rangle$ must not contain an underscore.
+  \item $\langle index \rangle$ must not start with 'not'
+  \item $\langle index \rangle$ may be empty.
+\end{enumerate}
+
+\section{Definition of outputs}
+
+Outputs are generally defined by tilelayers whichs name follows this scheme
+
+$$\textup{output}[\langle index \rangle]  \_ \langle name \rangle$$
+
+which is very similar to the input section.
+
+All layers of the same index are treated as one possible output.
+So the intention of indexes in the outputs of rules is only used for random
+output.
+
+The indexes in the output section have nothing to do with the indexes in the input section,
+they are independant. In the output section they are used for randomness; in the input section
+they are used to define multiple possible layers as input.
+
+So when there are multiple indexes within one rule, the output will be choosen
+fairly (uniformly distributed) accross all indexes. So a dice will be rolled and one index is picked.
+All of the output layers carrying this index will be put out into the working map then.
+
+Note that the output is not being checked for overlapping itself. This can be archieved by
+setting the map property \emph{NoOverlappingRules} to true. 
+
+\section{Map properties}
+
+\begin{enumerate}
+  \item \emph{NoOverlappingRules}
+  \item \emph{AutomappingRadius}
+  \item \emph{DeleteTiles}
+\end{enumerate}
+
+\chapter{Examples}
+
+\input{Example/TheManaWorld/themanaworld}
+
+
+\end{document}

@@ -6,7 +6,7 @@
  </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYWBgYBnFo3gUj2I6YY4RYC8HATzc/EtrewmFJ6l4sPt31N5RewfK3lE8ikfxyMQAfFkOqQ==
+   eJztzqERADAIBLAXiO4/MYYd6HER8akkBXDUG9sPAIAfNVnNDhk=
   </data>
  </layer>
  <layer name="Fringe" width="30" height="30">

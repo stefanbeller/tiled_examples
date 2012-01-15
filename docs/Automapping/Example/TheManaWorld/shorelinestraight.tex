@@ -1,0 +1,47 @@
+\newpage
+\subsection{basic shoreline} \label{basic_shoreline}
+\begin{wrapfigure}{r}{0.45\textwidth}
+  %~ \begin{center}
+       \begin{tabular}{|c|l|}
+       \hline
+       tile layer & name \\
+       \hline
+       \hline
+		\includegraphics[scale=1]{Example/TheManaWorld/shorelinestraight/regions.eps} & regions \\
+		\hline
+		\includegraphics[scale=1]{Example/TheManaWorld/shorelinestraight/input.eps} & input\_Ground\\
+		\hline
+		\includegraphics[scale=1]{Example/TheManaWorld/shorelinestraight/output.eps} & output\_Ground\\
+		\hline
+		\end{tabular}
+  %~ \end{center}
+  \caption{The region tile layer(top), the input tile layer(mid) and the output tile layer(bottom)}
+  \label{shorelinestraight}
+\end{wrapfigure}
+This example will demonstrate how a straight shoreline can easily be setup 
+between shallow water grass tiles. In this example we will only implement the
+shoreline, which has grass in southern and water in northern direction.
+
+So basically the meaning we will define in the input region is 
+\emph{All tiles which are south of a water tile and are no water tiles itself,
+will be replaced by a shoreline tile}
+
+The region in which this Automapping rule should be defined is of 2 tiles in height and 
+1 tile in width. Therefore we need a layer called \emph{regions} and it will have 2 tiles placed
+to indicate this region. In figure~\ref{shorelinestraight} the top graphics shows such a region
+layer.
+
+The input layer called \emph{input\_Ground} is depicted in the middle of 
+figure~\ref{shorelinestraight}. Only the upper tile is filled by the water
+tile. The lower tile contains no tile. It is not an invisible tile, just no
+tile at all. 
+
+And whenever there is no tile in a place within the rule regions in an input layer,
+what kind of tiles will be allowed there? There will be allowed any tiles except 
+all used tiles within all input layer with the same index and name.
+
+Here we only have one tile layer as an input layer carrying only the water tile.
+Hence at the position, where no tile is located, all tiles except that water tile
+are allowed.
+
+The layer in top of 
