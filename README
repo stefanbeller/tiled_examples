@@ -7,8 +7,16 @@ The Mana World
 All files in that directory are GPL by the Mana World developers.
 (see http://themanaworld.org/ or http://gitorious.org/tmw/tmwa-client-data.git)
 
+The Mana World 2
+Automapping supports different input layers since tiled version 0.9.0. The rules in this folder
+demonstrate the use of different input layers.
+The tileset is a reduced version of The Mana World art. 
+
 FLARE
 All of Flare's art and data files are released under CC-BY-SA 3.0. Later versions are permitted.
 (see http://clintbellanger.net/rpg/ or https://github.com/clintbellanger/flare)
 
-
+docs
+In this folder there are the sources for a whitepaper describing Automapping in details.
+The art in that folder is also taken from The Mana World (GPL licensed)
+The text files are released both as CC-BY-SA 3.0 or GPL.
