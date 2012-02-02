@@ -12,39 +12,39 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YGQnLgWgYJkYfLgAAzgT1zYwAAAA=
+ <layer name="Regions" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmBkJy4FoGCZGHy4AAAd2ABk=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB9MZ8TOJhcAAINeeM6MAAAA
+ <layer name="Input_set" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfTGfEziYXAABYagEx
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB/MYMTOJhcAAH1VfQSMAAAA
+ <layer name="Input_set" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfzGDEziYXAABY/gEz
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB/MZMTOJhcAAEpVZ32MAAAA
+ <layer name="Input_set" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfzGTEziYXAABZkgE1
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB/MYsTOJhcAABNVSfaMAAAA
+ <layer name="Input_set" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfzGLEziYXAABaJgE3
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB/MZsTOJhcAACRVU4+MAAAA
+ <layer name="Input_set" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfzGbEziYXAABaugE5
   </data>
  </layer>
- <layer name="rule1_Error" width="7" height="5">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB+wMGJnkwsACo7WN4wAAAA=
+ <layer name="Output1_Error" width="7" height="5">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfsDBiZ5MLAANuAAs=
   </data>
  </layer>
 </map>

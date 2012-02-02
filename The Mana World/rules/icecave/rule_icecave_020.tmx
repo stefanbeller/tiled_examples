@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="9" height="7" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,29 +12,29 @@
  <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="9" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4II2F6q8Gmhxg1hAAAKDCfLPwAAAA=
+ <layer name="Regions" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOCCNheqvBpocYNYQAALXIAZA=
   </data>
  </layer>
- <layer name="ruleSet" width="9" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4wI2F6qBEkoAabHiES9QAA7GlTvPwAAAA=
+ <layer name="Input_set" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOMCNheqgRJKAGmx4hEvUAACCcAEs=
   </data>
  </layer>
- <layer name="rule_Ground" width="9" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA5oI2FcwBaI7YDYHo+aECAOBeIwPGpSgDgViNOIdBsISCNhYgEAc8NUGPwAAAA=
+ <layer name="Output_Ground" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOaCNhXMAWiO2A2B6PmhAgDgXiMDxqUoA4FYjTiHQbCEgjYWIBAPO/A7s=
   </data>
  </layer>
- <layer name="rule_Over" width="9" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGPxAH4gTgFgXjxp5INYDYgUSzAUA1uf1CPwAAAA=
+ <layer name="Output_Over" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj8QB+IE4BYF48aeSDWA2IFEswFAFMgASo=
   </data>
  </layer>
- <layer name="rule_Collision" width="9" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC9gQsL41DAQUEMNPQBW4FMC/AAAAA==
+ <layer name="Output_Collision" width="9" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvYELC+NQwEFBDDT0ABnwADw==
   </data>
  </layer>
 </map>

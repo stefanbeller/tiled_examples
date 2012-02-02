@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="13" height="7" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,44 +12,44 @@
  <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8IQzGxbHL1DCe3AQDj6TXRbAEAAA==
+ <layer name="Regions" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPCEMxsWxy9QwntwEAtnsCYQ==
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5gh2J0NrI8A5o4LjWUuoMa9hDyDykAANMIrO9sAQAA
+ <layer name="Input_set" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYIdidDayPAOaOC41lLqDGvYQ8g8pAABPTABx
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC7ghmJ0NrI8A5o4LjWUuoMa9hDyDykAANIrI7dsAQAA
+ <layer name="Input_set" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu4IZidDayPAOaOC41lLqDGvYQ8g8pAAB7zACx
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC7gh2J0NrI8A5o4LjWUuoMa9hDyDykAAC01poBsAQAA
+ <layer name="Input_set" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu4IdidDayPAOaOC41lLqDGvYQ8g8pAACoTADx
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+wQzE6m5AeXHx2HGrIAeTYQ45/SAUAzKE5fmwBAAA=
+ <layer name="InputNot_set" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPsEMxOpuQHlx8dhxqyAHk2EOOf0gFAFSMAHE=
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA9wQzE6m5AeXHxuHGrIAeTYQ45/SAUATchkcWwBAAA=
+ <layer name="InputNot_set" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPcEMxOpuQHlx8bhxqyAHk2EOOf0gFAIQMALE=
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA/wQzE6m5AeXHx+HGrIAeTYQ45/SAUADe2AwmwBAAA=
+ <layer name="InputNot_set" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAP8EMxOpuQHlx8fhxqyAHk2EOOf0gFALOMAPE=
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC4IQuMHo/EVobQyle1FB45Q2plCc5LQ+MkUmAUA1eCGkGwBAAA=
+ <layer name="Output_Ground" width="13" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuCELjB6PxFaG0MpXtRQeOUNqZQnOS0PjJFJgFAHOzAjM=
   </data>
  </layer>
 </map>

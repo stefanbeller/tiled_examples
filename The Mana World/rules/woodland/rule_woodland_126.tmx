@@ -12,24 +12,24 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB4wM6KykfnIYjBxdD4+NeQAcu3C5W5s/iQGAADbAS+/RAEAAA==
+ <layer name="Regions" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeMDOispH5yGIwcXQ+PjXkAHLtwuVubP4kBgAASOgAcQ==
   </data>
  </layer>
- <layer name="ruleSet" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB+0M2LyYRiZT4w+atmPTQ26e6hlPwwAADsd5DVEAQAA
+ <layer name="Input_set" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAftDNi8mEYmU+MPmrZj00NunuoZT8MAABzfwiB
   </data>
  </layer>
- <layer name="rule_Ground" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5gJMCnN6CHewDPRyqKRAEAAA==
+ <layer name="Output_Ground" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYCTApzegh3sAA9QABQ==
   </data>
  </layer>
- <layer name="rule_Fringe" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5QQeObUNl8UoERGt+JBnYAAGEEDHlEAQAA
+ <layer name="Output_Fringe" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuUEHjm1DZfFKBERrfiQZ2AAB7FADN
   </data>
  </layer>
 </map>

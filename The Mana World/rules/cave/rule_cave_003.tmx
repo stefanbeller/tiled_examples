@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="13" height="4" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,29 +12,29 @@
  <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA84QzGxbHL1kAoAuFNWytAAAAA=
+ <layer name="Regions" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPOEMxsWxy9ZAKALy/BDE=
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA+wE+Dj0sOOhc2AJk4JAABwbzCA0AAAAA==
+ <layer name="Input_set" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPsBPg49LDjoXNgCZOCQAAFngAOQ==
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB+wo9EwNjsWNjHm4OKTAgAwnyyb0AAAAA==
+ <layer name="InputNot_set" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfsKPRMDY7FjYx5uDikwIAGYgAOQ==
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGBzAC0r7UGgOAAPIInnQAAAA
+ <layer name="Output_Ground" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcwAtK+1BoDgAooACX
   </data>
  </layer>
- <layer name="rule_Over" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA/4o/EDkNixUDqeTLMpAQCMFVzp0AAAAA==
+ <layer name="Output_Over" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAP+KPxA5DYsVA6nkyzKQEAslABXA==
   </data>
  </layer>
 </map>

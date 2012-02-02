@@ -12,64 +12,64 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YGSEYnU1Ijp5mAgAsuIhLxAAAAA==
+ <layer name="Regions" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmBkhGJ1NSI6eZgIAGbQAQQ==
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA/UGSEYnQ3jo6slBuDTh88+XAAA4j2MN8QAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP1BkhGJ0N46OrJQbg04fPPlwAALw4AeE=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA80GCEYnQ3jo6slBuDTh88+XAAA+CWFKcQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPNBghGJ0N46OrJQbg04fPPlwAAMDoAe0=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA80GSEYnQ3jo6slBuDTh88+XAAA0OqkYsQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPNBkhGJ0N46OrJQbg04fPPlwAAMWYAfk=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+0GCEYnQ3jo6slBuDTh88+XAAAqLvGv8QAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPtBghGJ0N46OrJQbg04fPPlwAAMpIAgU=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+0GSEYnQ3jo6slBuDTh88+XAAAgHTn9MQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPtBkhGJ0N46OrJQbg04fPPlwAAM74AhE=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA90GCEYnQ3jo6slBuDTh88+XAAAGR9z3sQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPdBghGJ0N46OrJQbg04fPPlwAANOoAh0=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA90GSEYnQ3jo6slBuDTh88+XAAAMdBSlcQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPdBkhGJ0N46OrJQbg04fPPlwAANhYAik=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA/0GCEYnQ3jo6slBuDTh88+XAAASYEwSMQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP9BghGJ0N46OrJQbg04fPPlwAAN0IAjU=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA/0GSEYnQ3jo6slBuDTh88+XAAAYU4RA8QAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAP9BkhGJ0N46OrJQbg04fPPlwAAOG4AkE=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA8MGCEYnQ3jo6slBuDTh88+XAAAfbEidMQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPDBghGJ0N46OrJQbg04fPPlwAAOZoAk0=
   </data>
  </layer>
- <layer name="rule_Ground" width="7" height="7" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA8C0fhBBNRTChLR+ElE6AEAr73BUMQAAAA=
+ <layer name="Output_Ground" width="7" height="7" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPAtH4QQTUUwoS0fhJROgBAIWMAWc=
   </data>
  </layer>
 </map>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="9" height="9" tilewidth="32" tileheight="32">
  <properties>
   <property name="AutoMappingRadius" value="1"/>
@@ -17,39 +16,39 @@
  <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4IE6CJBbj0DRZzyPEXALXctVNEAQAA
+ <layer name="Regions" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOCBOgiQW49A0Wc8jxFwCsRAEL
   </data>
  </layer>
- <layer name="ruleSet" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4wQ2kWKM0KpdmI1A8D7FCaA02ci0RzuKE0D5o4H4nm8ENpASgtCKWFSDADALg2bV1EAQAA
+ <layer name="Input_set" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOMENpFijNCqXZiNQPA+xQmgNNnItEc7ihNA+aOB+J5vBDaQEoLQilhUgwAwBIlACT
   </data>
  </layer>
- <layer name="rule_Ground" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA5oQ2lpNLqVSP0wYASlJdDEyTVHkkrmwPwjgkYTAwCSHrZpRAEAAA==
+ <layer name="Output_Ground" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOaENpaTS6lUj9MGAEpSXQxMk1R5JK5sD8I4JGEwMAD1oC+w==
   </data>
  </layer>
- <layer name="rule_Collision" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4wEeBTCkg1D5d6cs2hxD8ARG/fIUQBAAA=
+ <layer name="Output_Collision" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOMBHgUwpINQ+XenLNocQ/AAoMAA8=
   </data>
  </layer>
- <layer name="rule_Fringe" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8YkKmPWubhUh9AojkBaDQ5AACqeTmWRAEAAA==
+ <layer name="Output_Fringe" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPGJCpj1rm4VIfQKI5AWg0OQAAvUQBgQ==
   </data>
  </layer>
- <layer name="rule_Error" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWUAgAV+RUNRAEAAA==
+ <layer name="Output_Error" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
- <layer name="rule_Over" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWUAgAV+RUNRAEAAA==
+ <layer name="Output_Over" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
 </map>

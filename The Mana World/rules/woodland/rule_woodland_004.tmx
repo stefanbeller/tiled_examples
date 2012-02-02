@@ -12,44 +12,44 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXMjAwYAABHf/0SJAAAAA==
+ <layer name="Regions" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFzIwMGAAAAHMABQ==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUajAwYAAA0tHM6JAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFGowMGAAAA1cAKg==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUcjAwYAAA/5I8gJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFHIwMGAAAANcACg==
   </data>
  </layer>
- <layer name="rule_Fringe" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAWFDJgAAKvSE8AkAAAA
+ <layer name="Output_Fringe" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFhQyYAAAI+ABy
   </data>
  </layer>
- <layer name="rule1_Fringe" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAVFDJgAAGGfum8kAAAA
+ <layer name="Output1_Fringe" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFRQyYAAAJDABz
   </data>
  </layer>
- <layer name="rule2_Fringe" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXFDJgAACek3QokAAAA
+ <layer name="Output2_Fringe" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFxQyYAAAJIAB0
   </data>
  </layer>
- <layer name="rule3_Fringe" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUlDJgAALQCmeskAAAA
+ <layer name="Output3_Fringe" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFJQyYAAAJNAB1
   </data>
  </layer>
- <layer name="rule4_Fringe" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXNDJgAADO/7q4kAAAA
+ <layer name="Output4_Fringe" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFzQyYAAAKYACE
   </data>
  </layer>
 </map>

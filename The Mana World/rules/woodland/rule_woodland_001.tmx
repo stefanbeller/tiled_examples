@@ -15,39 +15,39 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="33" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGByAmZG69FAFo+EAASPNv7jAcPXXKBgFo2AUUAMAAN4iJrHECAAA
+ <layer name="Regions" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcgJmRuvRQBaPhAAEjzb+4wHD11ygYBaNgFFADAAAl1QBx
   </data>
  </layer>
- <layer name="ruleSet" width="33" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3QtxGAMBAFUSnCmy6Ehy4pAd8rAZsqQzOIuU1e+u+U+kaBfgwxwhgTTDHDHAsstdudrjPsr7DGBlvssMcBR5w8/8PC/hU33PHAEy/P77U1//QuSZKkN7oB0kdMgMQIAAA=
+ <layer name="Input_set" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt0LcRgDAQBVEpwpsuhIcuKQHfKwGbKkMziLlNXvrvlPpGgX4MMcIYE0wxwxwLLLXbna4z7K+wxgZb7LDHAUecPP/Dwv4VN9zxwBMvz++1Nf/0LkmSpDe6Ab2gBwA=
   </data>
  </layer>
- <layer name="rule_Ground" width="33" height="17" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGByAkcr0UAUhVKaHKggnkR6uIHqgHTAKRsEoGAWDGAAA1h8aocQIAAA=
+ <layer name="Output_Ground" width="33" height="17" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcgJHK9FAFIVSmhyoIJ5EeriB6oB0wCkbBKBgFgxgAAMkbBbg=
   </data>
  </layer>
- <layer name="rule_Fringe" width="33" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBh6AAB3v+jzxAgAAA==
+ <layer name="Output_Fringe" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYegAACMQAAQ==
   </data>
  </layer>
- <layer name="rule_Over" width="33" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBh6AAB3v+jzxAgAAA==
+ <layer name="Output_Over" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYegAACMQAAQ==
   </data>
  </layer>
- <layer name="rule_Collision" width="33" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGFyAiXGgXTA4wEgPh5Hu/1EwCkbBKBgFhAEARsiQ18QIAAA=
+ <layer name="Output_Collision" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcgIlxoF0wOMBID4eR7v9RMApGwSgYBYQBAEllAAo=
   </data>
  </layer>
- <layer name="rule_Error" width="33" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMglEwCkbBKBh6AAB3v+jzxAgAAA==
+ <layer name="Output_Error" width="33" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYegAACMQAAQ==
   </data>
  </layer>
 </map>

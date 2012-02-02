@@ -12,29 +12,29 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YGRE0DKPL4dOHTx02M3GZgQ8AAJimuFXEAAAA
+ <layer name="Regions" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmBkRNAyjy+HTh08dNjNxmYEPAAATiQAt
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB60M+LnkwOoYQYAJ5UujcQAAAA=
+ <layer name="Input_set" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAetDPi55MDqGEGAL3hAZk=
   </data>
  </layer>
- <layer name="rule_Ground" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB4YovEZSdBLrJnkAAAwpfrTxAAAAA==
+ <layer name="Output_Ground" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeGKLxGUnQS6yZ5AAAK2gAZA==
   </data>
  </layer>
- <layer name="rule_Fringe" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB4IofGZSNBLSwAAmXrp28QAAAA=
+ <layer name="Output_Fringe" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeCKHxmUjQS0sAAAyEABU=
   </data>
  </layer>
- <layer name="rule_Error" width="7" height="7">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGFjAwki5GQDDdbAoxAAAAA==
+ <layer name="Output_Error" width="7" height="7">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYwMJIuRkAAhcABg==
   </data>
  </layer>
 </map>

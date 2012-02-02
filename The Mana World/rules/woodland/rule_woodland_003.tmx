@@ -12,139 +12,139 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXMjAwYAABHf/0SJAAAAA==
+ <layer name="Regions" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFzIwMGAAAAHMABQ==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXTGRkwAAAXfyfXJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF0xkZMAAADAMAmQ==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUzGBkwAAA2D7irJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFMxgZMAAADBcAmg==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAUzGRkwAABwNN/OJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFMxkZMAAADCsAmw==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAWzGBkwAAC6eXZhJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFsxgZMAAADD8AnA==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAWzGRkwAAD8QhEEJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFsxkZMAAADFMAnQ==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAVzGBkwAABv5FXlJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFcxgZMAAADGcAng==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAVzGRkwAAAp3zKAJAAAAA==
+ <layer name="Input_set" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFcxkZMAAADHsAnw==
   </data>
  </layer>
- <layer name="rule_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule1_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output1_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule2_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output2_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule3_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output3_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule4_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output4_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule5_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output5_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule6_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output6_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule7_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output7_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule8_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output8_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule9_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output9_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule10_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output10_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule11_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output11_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule12_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output12_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule13_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output13_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule14_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output14_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule15_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output15_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="rule16_Ground" width="3" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXhDJgAAHUfzF4kAAAA
+ <layer name="Output16_Ground" width="3" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF4QyYAAAG8ABY
   </data>
  </layer>
- <layer name="ruleSP_Ground" width="3" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAX9DJgAANiC2H0kAAAA
+ <layer name="OutputSP_Ground" width="3" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF/QyYAAALUACQ
   </data>
  </layer>
- <layer name="ruleSP1_Ground" width="3" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgQAXzGTABAP0pHp0kAAAA
+ <layer name="OutputSP1_Ground" width="3" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAF8xkwAQAMkACg
   </data>
  </layer>
 </map>

@@ -21,79 +21,79 @@
  <tileset firstgid="487" name="Woodland_x4" tilewidth="32" tileheight="128">
   <image source="../../graphics/tiles/Woodland_x4.png" width="512" height="128"/>
  </tileset>
- <layer name="RuleRegions" width="5" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA6YGREYFwAANhnGBDwAAAA=
+ <layer name="Regions" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOmBkRGBcAAAG5AA0=
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA0EGPFIAgEAMA+sFzwAAAA=
+ <layer name="Input_set" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANBBjxSAIBAAJbABI=
   </data>
  </layer>
- <layer name="ruleSet" width="5" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA0MGPFIAgEA4tIeLTwAAAA=
+ <layer name="Input_set" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANDBjxSAIBAAZbADI=
   </data>
  </layer>
- <layer name="ruleNotSet" width="5" height="3" opacity="0.48">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA4EGFFpbAAADTYeXzwAAAA=
+ <layer name="InputNot_set" width="5" height="3" opacity="0.48">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOBBhRaWwAAAR6ACM=
   </data>
  </layer>
- <layer name="ruleNotSet" width="5" height="3" opacity="0.35">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA4MGFFpbAAAVFdScDwAAAA=
+ <layer name="InputNot_set" width="5" height="3" opacity="0.35">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAODBhRaWwAAAx6AGM=
   </data>
  </layer>
- <layer name="rule1_Collision" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
+ <layer name="Output1_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
   </data>
  </layer>
- <layer name="rule2_Collision" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
+ <layer name="Output2_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
   </data>
  </layer>
- <layer name="rule3_Collision" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
+ <layer name="Output3_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
   </data>
  </layer>
- <layer name="rule4_Collision" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
+ <layer name="Output4_Collision" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
   </data>
  </layer>
- <layer name="rule5_Collision" width="5" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2YGCEYFwAAt43XXzwAAAA=
+ <layer name="Output5_Collision" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANmBghGBcAAADuAAc=
   </data>
  </layer>
- <layer name="rule1_Fringe" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA22MjIwbGPELQ8A1VOr2zwAAAA=
+ <layer name="Output1_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANtjIyMGxjxC0PACr+AW4=
   </data>
  </layer>
- <layer name="rule2_Fringe" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2OMjIwHGPELQ8Aem66yTwAAAA=
+ <layer name="Output2_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANjjIyMBxjxC0PAC6+AY4=
   </data>
  </layer>
- <layer name="rule3_Fringe" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2eMzIwvGDELQ8Au/th9TwAAAA=
+ <layer name="Output3_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANnjMyMLxgxC0PADa2AdI=
   </data>
  </layer>
- <layer name="rule4_Fringe" width="5" height="3" visible="0">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1eMjIwvGLELQ8A6iJRXDwAAAA=
+ <layer name="Output4_Fringe" width="5" height="3" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANXjIyMLxixC0PADcuAdY=
   </data>
  </layer>
- <layer name="rule5_Fringe" width="5" height="3">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA3OMTIwnGfELQ8AZEer7zwAAAA=
+ <layer name="Output5_Fringe" width="5" height="3">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANzjEyMJxnxC0PADDaAaA=
   </data>
  </layer>
 </map>

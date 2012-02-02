@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,29 +12,29 @@
  <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2EkWhhLOL4ALp6YSzi2AAALrUFg5AAAAA=
+ <layer name="Regions" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANhJFoYSzi+AC6emEs4tgAACyAAJk=
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzYCPCppQcEAItPfPCQAAAA
+ <layer name="Input_set" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM2AjwqaUHBAAHgAAZ
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAy4CPCppQcEAOTd4SuQAAAA
+ <layer name="Input_set" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMuAjwqaUHBAAMIAAp
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAz4CPCppQcEAMFTlWKQAAAA
+ <layer name="Input_set" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM+AjwqaUHBAAQwAA5
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAza0PilROiZisZvIUIPCAAASt1u8JAAAAA=
+ <layer name="Output_Ground" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM2tD4pUTomYrGbyFCDwgAAJhcAhU=
   </data>
  </layer>
 </map>

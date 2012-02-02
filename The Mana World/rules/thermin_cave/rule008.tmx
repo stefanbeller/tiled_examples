@@ -12,39 +12,39 @@
  <tileset firstgid="71" name="thermin-cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/thermin-cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Regions" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="ruleSet" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Input_set" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Ground" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Ground" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Fringe" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Fringe" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Over" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Over" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Collision" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Collision" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Error" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Error" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
 </map>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="6" height="6" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,34 +12,34 @@
  <tileset firstgid="71" name="cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2ckWhnLOL4ALp6Zyzi2AAAH/dlMZAAAAA=
+ <layer name="Regions" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANnJFoZyzi+AC6emcs4tgAAJuAAhk=
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAxUCPCppQcEAFLwSR+QAAAA
+ <layer name="Input_set" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMVAjwqaUHBAAqMACR
   </data>
  </layer>
- <layer name="ruleSet" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAyUCfCppQcEAFzYvvuQAAAA
+ <layer name="Input_set" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMlAnwqaUHBAApCACN
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.36">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA1UcLBJBaSYAwCeYv2dkAAAAA==
+ <layer name="InputNot_set" width="6" height="6" opacity="0.36">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANVHCwSQWkmAMAKjAAkQ==
   </data>
  </layer>
- <layer name="ruleNotSet" width="6" height="6" opacity="0.33">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA2UcbBJBaSYAwA+q0HQkAAAAA==
+ <layer name="InputNot_set" width="6" height="6" opacity="0.33">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANlHGwSQWkmAMAKQgAjQ==
   </data>
  </layer>
- <layer name="rule_Ground" width="6" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAyS0fhBROgpQuMnEqEHBAAgX4OJkAAAAA==
+ <layer name="Output_Ground" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAMktH4QUToKULjJxKhBwQAb+QBiQ==
   </data>
  </layer>
 </map>

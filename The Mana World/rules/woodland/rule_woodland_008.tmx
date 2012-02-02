@@ -12,37 +12,37 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="3" height="3">
+ <layer name="Regions" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYEAFzIwMGAAAAHMABQ==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer name="Input_set" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYEAFPIwMGAAAAScADg==
   </data>
  </layer>
- <layer name="ruleSet" width="3" height="3">
+ <layer name="Input_set" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYEAFOowMGAAAA6cALg==
   </data>
  </layer>
- <layer name="rule_Fringe" width="3" height="3">
+ <layer name="Output_Fringe" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYEAF8gyYAAACkAAg
   </data>
  </layer>
- <layer name="rule1_Fringe" width="3" height="3">
+ <layer name="Output1_Fringe" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYEAFCgyYAAACpAAh
   </data>
  </layer>
- <layer name="rule_Collision" width="3" height="3">
+ <layer name="Output_Collision" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYCAMAAAkAAE=
   </data>
  </layer>
- <layer name="rule1_Collision" width="3" height="3">
+ <layer name="Output1_Collision" width="3" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYEAFTIwMGAAAAF8ABA==
   </data>

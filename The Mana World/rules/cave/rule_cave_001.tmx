@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="17" height="17" tilewidth="32" tileheight="32">
  <properties>
   <property name="AutomappingRadius" value="1"/>
@@ -20,39 +19,39 @@
  <tileset firstgid="199" name="cave_x2" tilewidth="32" tileheight="64">
   <image source="../../graphics/tiles/cave_x2.png" width="512" height="64"/>
  </tileset>
- <layer name="ruleRegions" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA5wJpGmFRis7sAlPlDuIFaeXu4YBSMXAAAIMvB/hAQAAA==
+ <layer name="Regions" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOcCaRphUYrO7AJT5Q7iBWnl7uGAUjFwAAEGwGBg==
   </data>
  </layer>
- <layer name="ruleSet" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA9XOSQqAMBBE0YAjzhhRwRH1/md080VocNdRrM2DhKbKGJ146GOAIUYYi7tEqf9KihnmWGCJlbirlXdYbMR7ix32yr0yA44P/wuujnfseDju+WsmnD9dcWd7sesEaEU/nYQEAAA=
+ <layer name="Input_set" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzVzkkKgDAQRNGAI84YUcER9f5ndPNFaHDXUazNg4SmyhideOhjgCFGGIu7RKn/SooZ5lhgiZW4q5V3WGzEe4sd9sq9MgOOD/8Lro537Hg47vlrJpw/XXFne7HrBHCXAhU=
   </data>
  </layer>
- <layer name="rule_Ground" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA7whtL7ofRWNDoaSrtQyT5c4BCU3ovDHS5oNK3ARijtjSZOb3d4o9HogNb2w0ASGj0KRgEMAAB5sOMrhAQAAA==
+ <layer name="Output_Ground" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO8IbS+6H0VjQ6Gkq7UMk+XOAQlN6Lwx0uaDStwEYo7Y0mTm93eKPR6IDW9sNAEho9CkYBDAAAEYQKXA==
   </data>
  </layer>
- <layer name="rule_Fringe" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC1opLH5xIKJA2RvAhp/IZ3tPwilj9PZXlwgYaAdMAoGHQAA9etQ4oQEAAA=
+ <layer name="Output_Fringe" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAtaKSx+cSCiQNkbwIafyGd7T8IpY/T2V5cIGGgHTAKBh0AABA0A/w=
   </data>
  </layer>
- <layer name="rule_Collision" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoA1gIsCnFaCXPYQAExpNqjy93UEvMFjiZxQMHgAAgZ1QGoQEAAA=
+ <layer name="Output_Collision" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANYCLApxWglz2EABMaTao8vd1BLzBY4mcUDB4AAEjsABc=
   </data>
  </layer>
- <layer name="rule_Over" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMgoEDAJPZHwSEBAAA
+ <layer name="Output_Over" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBAwAEhAAB
   </data>
  </layer>
- <layer name="rule_Error" width="17" height="17">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYBSMgoEDAJPZHwSEBAAA
+ <layer name="Output_Error" width="17" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBAwAEhAAB
   </data>
  </layer>
 </map>

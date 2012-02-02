@@ -12,24 +12,24 @@
  <tileset firstgid="263" name="set_woodland" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_woodland.png" width="512" height="320"/>
  </tileset>
- <layer name="RuleRegions" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4wMyIwNj411Qw19wAAAM+wp0QBAAA=
+ <layer name="Regions" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOMDMiMDY+NdUMNfcAAF1gAJE=
   </data>
  </layer>
- <layer name="ruleSet" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB60M2LykcVgfJgYOp+QGCmAFHOJcQ8+fxICAEPlj75EAQAA
+ <layer name="Input_set" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAetDNi8pHFYHyYGDqfkBgpgBRziXEPPn8SAgCJLw7h
   </data>
  </layer>
- <layer name="rule_Ground" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC7wRONHUtl8UkEmHewAAON6NOpEAQAA
+ <layer name="Output_Ground" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAu8ETjR1LZfFJBJh3sAAC/IAEM
   </data>
  </layer>
- <layer name="rule_Error" width="9" height="9">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGFmAhZH6ZgIAlqgVuEQBAAA=
+ <layer name="Output_Error" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhZgIWR+mYCAALnAAY=
   </data>
  </layer>
 </map>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="7" height="6" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,29 +12,29 @@
  <tileset firstgid="23" name="cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="7" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+EoRidTSs5XAAAY11lnagAAAA=
+ <layer name="Regions" width="7" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPhKEYnU0rOVwAAGbIATE=
   </data>
  </layer>
- <layer name="ruleSet" width="7" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YoRidTYkcA5ocMQAANSMN1qgAAAA=
+ <layer name="Input_set" width="7" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmKEYnU2JHAOaHDEAAA/AACs=
   </data>
  </layer>
- <layer name="ruleNotSet" width="7" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoD9gJsDHBgB9Q1zQqAAAAA==
+ <layer name="InputNot_set" width="7" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/YCbAxwYAAbAABw==
   </data>
  </layer>
- <layer name="rule_Ground" width="7" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIAzsobQtFjl/KO2LRS4eSscSYQchAAB9+9lsqAAAAA==
+ <layer name="Output_Ground" width="7" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAM7KG0LRY5fyjti0UuHkrHEmEHIQAAsJAB1Q==
   </data>
  </layer>
- <layer name="rule_Collision" width="7" height="6">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgwA+YoBidTYkcA5ocMQAAqilRnqgAAAA=
+ <layer name="Output_Collision" width="7" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPmKAYnU2JHAOaHDEAAAq4AB0=
   </data>
  </layer>
 </map>

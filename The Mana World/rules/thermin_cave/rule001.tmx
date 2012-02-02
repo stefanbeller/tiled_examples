@@ -16,39 +16,39 @@
  <tileset firstgid="71" name="thermin-cave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/thermin-cave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoAwwk0lTCkbtHb72AgCLNgymlAIAAA==
+ <layer name="Regions" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMMJNJUwpG7R2+9gIAisAAag==
   </data>
  </layer>
- <layer name="ruleSet" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoAywo/E5oTQXlOam0HxcgB9KC0BpQSgtBKWFaWSvOI3MHQUIAACXQma5lAIAAA==
+ <layer name="Input_set" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAMsKPxOaE0F5TmptB8XIAfSgtAaUEoLQSlhWlkrziNzB0FCAAADk8Akg==
   </data>
  </layer>
- <layer name="rule_Ground" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Ground" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Fringe" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Fringe" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Over" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Over" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
- <layer name="rule_Collision" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5gIsCntj24zKe1vaOAdgAAxU9zT5QCAAA=
+ <layer name="Output_Collision" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYCLAp7Y9uMyntb2jgHYAABkkAA0=
   </data>
  </layer>
- <layer name="rule_Error" width="15" height="11">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGAWjYHABAHevG6iUAgAA
+ <layer name="Output_Error" width="15" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAQAClAAB
   </data>
  </layer>
 </map>

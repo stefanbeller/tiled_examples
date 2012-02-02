@@ -24,27 +24,27 @@
  <tileset firstgid="256" name="set_rules" tilewidth="64" tileheight="32">
   <image source="../set_rules.png" width="128" height="128"/>
  </tileset>
- <layer name="ruleRegions" width="9" height="3">
+ <layer name="Regions" width="9" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYCASMBKgiQAAAUgABQ==
   </data>
  </layer>
- <layer name="ruleSet" width="9" height="3">
+ <layer name="Input_set" width="9" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYCAOMDFCaGYozQilWRiJNAAIAANoAA8=
   </data>
  </layer>
- <layer name="rule_background" width="9" height="3">
+ <layer name="Output_background" width="9" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYCAOCEDpDUSqxwYALewAwQ==
   </data>
  </layer>
- <layer name="rule_object" width="9" height="3">
+ <layer name="Output_object" width="9" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYKAfAAAAbAAB
   </data>
  </layer>
- <layer name="rule_collision" width="9" height="3">
+ <layer name="Output_collision" width="9" height="3">
   <data encoding="base64" compression="zlib">
    eJxjYCANMEFpZijNSIJeAAGsAAc=
   </data>

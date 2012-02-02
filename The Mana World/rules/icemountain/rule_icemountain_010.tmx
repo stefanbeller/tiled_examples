@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="10" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_icemountain" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/set_icemountain.png" width="224" height="128"/>
@@ -16,27 +15,27 @@
  <tileset firstgid="291" name="Snow_ground" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/Snow_ground.png" width="352" height="224"/>
  </tileset>
- <layer name="ruleRegions" width="30" height="10">
+ <layer name="Regions" width="30" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBg4IAvF2NjINDXNJqSHUnsJmU+qm2hp9kD5d6Did6AAKf7FFUbkhN1A2UtLAADD5AVx
   </data>
  </layer>
- <layer name="ruleSet" width="30" height="10">
+ <layer name="Input_set" width="30" height="10">
   <data encoding="base64" compression="zlib">
    eJzFU0EKwDAI8zD1/z/eBgqagVjXsUBRIU1UWqL/cFyHLWerKUR+3FjTFsslaFZwvw53Aqbc05v5EHfParnS2rxSsuYQyj3F2aP/BAzaO3e5G95nZ8/OxbeoUHe0nKMlK/spRPT76m90cQJZTgEJ
   </data>
  </layer>
- <layer name="rule_Ground" width="30" height="10" visible="0">
+ <layer name="Output_Ground" width="30" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBg4oMeIyjeA8lUYMdXSE1jRyH5jNHNNB9ifmjS23wzNfAs0vv0A+5/eQIfO/nUahuELAMleAnU=
   </data>
  </layer>
- <layer name="rule_Collision" width="30" height="10" visible="0">
+ <layer name="Output_Collision" width="30" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIKhAQAEsAAB
   </data>
  </layer>
- <layer name="rule_Error" width="30" height="10">
+ <layer name="Output_Error" width="30" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBieQA6K0dnDFYz6d3gAORLpoW4vqQAANHsC0Q==
   </data>

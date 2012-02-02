@@ -15,19 +15,19 @@
  <tileset firstgid="423" name="Woodland_village" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/Woodland_village.png" width="512" height="512"/>
  </tileset>
- <layer name="RuleRegions" width="9" height="21">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA4wMyIwNj411Yy6Z9Q9tHQPAKAUBsP0AgAA
+ <layer name="Regions" width="9" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOMDMiMDY+NdWMumfUPbR0DwAZGAFp
   </data>
  </layer>
- <layer name="ruleSet" width="9" height="21">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB60M0IwOhtdHl0Nsjp8+kgF2MwhZC4u9+BzM7FuIcYcQmFIjL9IdRMus0jxO6E4JMYtxLiN1PRDTtgAAIrFeh70AgAA
+ <layer name="Input_set" width="9" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAetDNCMDobXR5dDbI6fPpIBdjMIWQuLvfgczOxbiHGHEJhSIy/SHUTLrNI8TuhOCTGLcS4jdT0Q07YAAAb5CDx
   </data>
  </layer>
- <layer name="rule_Error" width="9" height="21">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgoC5gYcTPpzcYdQ9+MBLdAwA+mKgy9AIAAA==
+ <layer name="Output_Error" width="9" height="21">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYGHEz6c3GHUPfjAS3QMATSIAMw==
   </data>
  </layer>
 </map>

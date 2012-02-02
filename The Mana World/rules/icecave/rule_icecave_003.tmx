@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="13" height="4" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="collision" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/collision.png" width="64" height="32"/>
@@ -13,29 +12,29 @@
  <tileset firstgid="23" name="icecave" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/icecave.png" width="512" height="256"/>
  </tileset>
- <layer name="ruleRegions" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8IQzGxbHL1kAoA+YlsANAAAAA=
+ <layer name="Regions" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPCEMxsWxy9ZAKAH6wATE=
   </data>
  </layer>
- <layer name="ruleSet" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA8wE+Dj0sOMhc2AJk4JAAB87igk0AAAAA==
+ <layer name="Input_set" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPMBPg49LDjIXNgCZOCQAAChgAGQ==
   </data>
  </layer>
- <layer name="ruleNotSet" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIB8wo9EwNjMWNjHm4OKTAgA8hSQr0AAAAA==
+ <layer name="InputNot_set" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAfMKPRMDYzFjYx5uDikwIAC2gAGQ==
   </data>
  </layer>
- <layer name="rule_Ground" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgGBxACkrLUGgOAN2P9CXQAAAA
+ <layer name="Output_Ground" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgcQApKy1BoDgAPIAA3
   </data>
  </layer>
- <layer name="rule_Over" width="13" height="4">
-  <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA2NgIA/Io/EVkNi6UFqfTLMpAQCgAAh70AAAAA==
+ <layer name="Output_Over" width="13" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPyKPxFZDYulBan0yzKQEAT1AAnA==
   </data>
  </layer>
 </map>

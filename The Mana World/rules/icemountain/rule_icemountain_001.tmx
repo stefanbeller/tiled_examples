@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="15" height="5" tilewidth="32" tileheight="32">
  <properties>
   <property name="AutomappingRadius" value="5"/>
@@ -20,32 +19,32 @@
  <tileset firstgid="291" name="Snow_ground" tilewidth="32" tileheight="32">
   <image source="../../graphics/tiles/Snow_ground.png" width="352" height="224"/>
  </tileset>
- <layer name="ruleRegions" width="15" height="5" visible="0">
+ <layer name="Regions" width="15" height="5" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAMyJJJUwpINZca9gIA1bABQA==
   </data>
  </layer>
- <layer name="ruleSet" width="15" height="5" visible="0">
+ <layer name="Input_set" width="15" height="5" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAMMEJpJijNDKVZoDQrlGaD0uwU2gcDHFCaE0pzEVDPRwU7ASaIAEY=
   </data>
  </layer>
- <layer name="rule_Ground" width="15" height="5">
+ <layer name="Output_Ground" width="15" height="5">
   <data encoding="base64" compression="zlib">
    eJxjYKAMbMJBs0BpfUYIbQKlzRkptHAAAQBYIwK4
   </data>
  </layer>
- <layer name="rule_Fringe" width="15" height="5">
+ <layer name="Output_Fringe" width="15" height="5">
   <data encoding="base64" compression="zlib">
    eJxjYBgFxAIAASwAAQ==
   </data>
  </layer>
- <layer name="rule_Over" width="15" height="5" visible="0">
+ <layer name="Output_Over" width="15" height="5" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgFxAIAASwAAQ==
   </data>
  </layer>
- <layer name="rule_Collision" width="15" height="5">
+ <layer name="Output_Collision" width="15" height="5">
   <data encoding="base64" compression="zlib">
    eJxjYKAMKDESJ49OD0UAAHHQAI0=
   </data>
