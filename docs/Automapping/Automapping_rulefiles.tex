@@ -102,6 +102,8 @@ order these in the rules.txt
 
 
 
+
+
 \section{Definition of inputs}
 Inputs are generally defined by tilelayers whichs name follows this scheme
 
@@ -128,9 +130,14 @@ condition. Each of these conditions are checked individually.
   \item $\langle index \rangle$ may be empty.
 \end{enumerate}
 
+If there are tiles in the standard $\textup{input}$ layers one of these tiles must be
+there to match the rule. The optional $[\textup{not}]$ inverts the meaning of that layer.
+So if there are $[\textup{inputnot}]$ layers, the tiles placed on them, must not
+occur in the working map at the examined region to make a rule match.
 
-
-
+Within one rule you can combine the usage of both $\textup{input}$ and $\textup{inputnot}$
+layers to make rules input conditions as accurate as you need or as fuzzy
+as you need.
 
 
 \section{Definition of outputs}
