@@ -1,0 +1,53 @@
+\newpage
+\section{abstract input layer examples}
+\subsection{having multiple input layers with the same name}
+Assume the following 3 tile layers as input, which possible inputs are there in the working map?
+\begin{table}[h!]
+        \begin{tabular}{|c|l|}
+        \hline
+		tile layer & name \\
+        \hline
+        \hline
+		\includegraphics[scale=1]{Example/AbstractInput/12.eps} & input\_Ground \\
+		\hline
+		\includegraphics[scale=1]{Example/AbstractInput/34.eps} & input\_Ground\\
+		\hline
+		\includegraphics[scale=1]{Example/AbstractInput/56.eps} & input\_Ground\\
+		\hline
+		\end{tabular}
+\end{table}
+
+The following parts would be detected as matches for this rule:
+\begin{table}[h!]
+        \begin{tabular}{c c c}
+		\includegraphics[scale=1]{Example/AbstractInput/12.eps} & \includegraphics[scale=1]{Example/AbstractInput/14.eps} & \includegraphics[scale=1]{Example/AbstractInput/16.eps} \\
+		\includegraphics[scale=1]{Example/AbstractInput/32.eps} & \includegraphics[scale=1]{Example/AbstractInput/34.eps} & \includegraphics[scale=1]{Example/AbstractInput/36.eps} \\
+		\includegraphics[scale=1]{Example/AbstractInput/52.eps} & \includegraphics[scale=1]{Example/AbstractInput/54.eps} & \includegraphics[scale=1]{Example/AbstractInput/56.eps} \\
+		\end{tabular}
+\end{table}
+
+\newpage
+\subsection{input layers using different indexes}
+Given the following 3 input tile layers:
+\begin{table}[h!]
+        \begin{tabular}{|c|l|}
+        \hline
+		tile layer & name \\
+        \hline
+        \hline
+		\includegraphics[scale=1]{Example/AbstractInput/12.eps} & input\_Ground \\
+		\hline
+		\includegraphics[scale=1]{Example/AbstractInput/34.eps} & input\_Ground\\
+		\hline
+		\includegraphics[scale=1]{Example/AbstractInput/56.eps} & input2\_Ground\\
+		\hline
+		\end{tabular}
+\end{table}
+
+All following parts would be recognized as matches within the working map:
+\begin{table}[h!]
+        \begin{tabular}{c c c}
+		\includegraphics[scale=1]{Example/AbstractInput/12.eps} & \includegraphics[scale=1]{Example/AbstractInput/14.eps} & \\
+		\includegraphics[scale=1]{Example/AbstractInput/32.eps} & \includegraphics[scale=1]{Example/AbstractInput/34.eps} & \includegraphics[scale=1]{Example/AbstractInput/56.eps} \\
+		\end{tabular}
+\end{table}

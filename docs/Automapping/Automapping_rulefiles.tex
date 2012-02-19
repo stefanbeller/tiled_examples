@@ -102,9 +102,6 @@ order these in the rules.txt
 
 
 
-
-
-
 \section{Definition of inputs}
 Inputs are generally defined by tilelayers whichs name follows this scheme
 
@@ -112,16 +109,18 @@ $$\textup{input}[\textup{not}] [\langle index \rangle]  \_ \langle name \rangle$
 
 whereas the $[\textup{not}]$ and $[\langle index \rangle]$ are optional.
 
-The $\langle name \rangle$ determines which layer on the rulemap is examined.
+The $\langle name \rangle$ determines which layer on the working map is examined.
 So for example the layer $\textup{input}\_\textup{Ground}$ will check the
 layer called $\textup{Ground}$ in the working map for this rule.
 
 Multiple layers having the same $\langle name \rangle$ and $\langle index \rangle$
-is explicitly allowed and is intended.
+is explicitly allowed and is intended. Having multiple layers of the same
+$\langle name \rangle$ and $\langle index \rangle$, will allow you to define different possible tiles
+per coordinate as input.
 
 The $\langle index \rangle$ is used to create complete different input conditions.
 All layers having the same $\langle index \rangle$ are taken into account for forming one
-condition. Each of these conditions are checked individually
+condition. Each of these conditions are checked individually.
 
 \begin{enumerate}
   \item $\langle index \rangle$ must not contain an underscore.
@@ -197,6 +196,7 @@ applied in a bigger region.
 
 \input{Example/LoneCoder/alternatingwalls}
 
+\input{Example/AbstractInput/AbstractInput}
 
 \chapter{Hints}
 
