@@ -1,0 +1,2 @@
+latex Automapping_rulefiles.tex
+dvipdfm Automapping_rulefiles.dvi
