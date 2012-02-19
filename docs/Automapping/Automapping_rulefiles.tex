@@ -54,6 +54,9 @@ An automapping file consists of 4 major parts:
 
 
 
+
+
+
 \section{Defining the Regions}
 There must be either a tilelayer called $\textup{regions}$ or there must be
 the both tilelayers $\textup{regions}\_\textup{input}$ and
@@ -66,10 +69,10 @@ Using the different layers 'regions\_input' and 'regions\_output'
 delivers the possibility to have different regions for the input section
 and the output section.
 
-The region(s) defining an output are only used to mark regions.
-That is either a tile belongs to a region or it does not. Therefore the
-region layer does not rely on special tiles. So either use any tile or
-no tile at all at a coordinate to indicate if that coordinate belongs to a
+The region layer(s) are only used to mark regions, where an automapping rule exists.
+Therefore it does not matter which tiles are used in this layer, since these tiles are just used
+to define a region.
+So either use any tile or no tile at a coordinate to indicate if that coordinate belongs to a
 rule or if it doesn't.
 
 If multiple rules are defined in one rulemap file, the regions must not be
@@ -79,6 +82,28 @@ one rule.
 
 The use of different 'regions\_input' and 'regions\_output' is demonstrated
 in example~\ref{example_tmw_grass_water_corners}.
+
+\subsection{Multiple rules in one rulefile}
+
+Of course multiple rules are possible in one rulemap.
+If you want to have the rules applied in a certain sequence, you should
+use multiple rulemaps and define the sequence within the rules.txt file.
+
+As of now there also is a certain sequence within one rulemapfile.
+Generally speaking the regions with small y value come first.
+If there are regions at the same y value, then the x value is taken into account.
+On orthogonal maps this ordering scheme is the same as for reading in most western countries.
+(Left to right, top to down).
+
+The order within one rulemap may be changed later,
+once tiled is capable of utilizing multiple threads/processors.
+So if you want to rely on a certain sequence, use different rulemaps and
+order these in the rules.txt
+
+
+
+
+
 
 \section{Definition of inputs}
 Inputs are generally defined by tilelayers whichs name follows this scheme
@@ -91,7 +116,7 @@ The $\langle name \rangle$ determines which layer on the rulemap is examined.
 So for example the layer $\textup{input}\_\textup{Ground}$ will check the
 layer called $\textup{Ground}$ in the working map for this rule.
 
-Multiple layers having the same $\langle name \rangle$ and $\langle index \rangle$ 
+Multiple layers having the same $\langle name \rangle$ and $\langle index \rangle$
 is explicitly allowed and is intended.
 
 The $\langle index \rangle$ is used to create complete different input conditions.
@@ -104,13 +129,20 @@ condition. Each of these conditions are checked individually
   \item $\langle index \rangle$ may be empty.
 \end{enumerate}
 
+
+
+
+
+
 \section{Definition of outputs}
 
 Outputs are generally defined by tilelayers whichs name follows this scheme
 
 $$\textup{output}[\langle index \rangle]  \_ \langle name \rangle$$
 
-which is very similar to the input section.
+which is very similar to the input section. At first there must be the word $\textup{output}$.
+Then optionally an $\textup{index}$ may occur. After the first underscore there will be the
+$\textup{name}$ of the target layer.
 
 All layers of the same index are treated as one possible output.
 So the intention of indexes in the outputs of rules is only used for random
@@ -125,19 +157,49 @@ fairly (uniformly distributed) accross all indexes. So a dice will be rolled and
 All of the output layers carrying this index will be put out into the working map then.
 
 Note that the output is not being checked for overlapping itself. This can be archieved by
-setting the map property \emph{NoOverlappingRules} to true. 
+setting the map property \emph{NoOverlappingRules} to true.
+
+
+
 
 \section{Map properties}
 
+There are 3 different map properties, which can be used to add additional
+information to a rulefile:
 \begin{enumerate}
   \item \emph{NoOverlappingRules}
-  \item \emph{AutomappingRadius}
   \item \emph{DeleteTiles}
+  \item \emph{AutomappingRadius}
 \end{enumerate}
+These properties are map wide, meaning it applies to all rules which are part of the rulemap.
+If you need rules with different properties, you can use multiple rulemaps.
+
+
+\subsection{NoOverlappingRules}
+A rule may not overlap to itself. It is used in example~\ref{alternatingWall}
+
+\subsection{DeleteTiles}
+This deletes all tiles in all possibly changed layers before the automapping takes place.
+This is useful when using live Automapping in a map with layers, which only carry
+a few tiles.
+
+\subsection{AutomappingRadius}
+Only interesting in live Automapping.
+
+In live Automapping only a small part of the map is taken into account for Automapping to speed
+up the process.
+Since some rules rely on other rules to be executed first, these rules maybe should be
+applied in a bigger region.
 
 \chapter{Examples}
 
 \input{Example/TheManaWorld/themanaworld}
 
+\input{Example/LoneCoder/alternatingwalls}
+
+
+\chapter{Hints}
+
+dedicated set layer or trying to parse your layer
 
 \end{document}
