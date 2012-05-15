@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="64" height="32" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="set_cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/set_cave.png" width="256" height="256"/>
@@ -17,7 +18,7 @@
  </tileset>
  <layer name="set" width="64" height="32">
   <data encoding="base64" compression="zlib">
-   eJztlU0LgzAMhjs6D2PzIGyX3dz//5EiKCujpPlo2jhzeBDF2j5vajqEEAbHcRwlXgbW0JpLgd7r6+V9lAzihpa79Rwo/lxvy/416j6dwL/kNies9+8T+n8Sf0z9j5QLtf6YDKT+rfPL+dwQ2Wj1BQv+tUjnwPpxc4xB99zXzEzqHzNwM4Celfwp2ULvUPdwzp+SAVQL6R7F+M0JkyF/aL77dsWOwfpT3TkZSPv2+t0rMecaZ0MNf0ovguZ5GPPHwunJudo/w/c/oM75D/7c/tI7A4n77o+pudU9IP3/ueu3sgd6+Vvhd/2jcLzjOI7TngW7oCR0
+   eJztlU0PgjAMhmeAg1EOJHrxhv//RxoSDc2ytGu7jyI9PAkSZH3ebmUKIUyO4ziVeBqooTUXgt719fI+SgbDl1ru1nPg+EucB+P+Jfq+nMCf6vMK2H6/Tuj/Bv45/T9SLtz+p/xjV61/6/xS3lcil9i/5HfBgn/O/IdQGcTXmJ80R1hPDX9tZtJ3c921GWD3KH9Ottgz3D2c8udkgPVCu0dz/FbAYsgfW+8W9rOvXQP6c90lGWjn9vbekZlziW9DCX/OLMLWuRvzz0Uyk1O9f4T9HHDX/Ad/6XzpnYHG/eef03Ore0B7/qX1W9kDvfytENc/K//vOI7jtOcDRC4kiA==
   </data>
  </layer>
 </map>
